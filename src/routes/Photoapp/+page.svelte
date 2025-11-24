@@ -22,6 +22,7 @@
 
     .image-wrapper{
         flex: 1;
+        transition: flex-grow 0.3s;
     }
 
     .image-wrapper img{
@@ -29,6 +30,7 @@
         height: auto;
         border-radius: 10px;
         margin:10px;
+
     }
 
     .image-wrapper:hover{ 
