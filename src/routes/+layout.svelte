@@ -17,6 +17,10 @@ import { base } from '$app/paths';
 <a href="{base}/Register">Register</a>
 
 <a href="{base}/Shoppinglist">Shoppinglist</a>
+
+<a href="{base}/prov">prov</a>
+
+<a href="{base}/Memory">Memory</a>
 </nav>
 
 
