@@ -21,6 +21,9 @@ import { base } from '$app/paths';
 <a href="{base}/prov">prov</a>
 
 <a href="{base}/Memory">Memory</a>
+
+<a href="{base}/chat">chat</a>
+
 </nav>
 
 
