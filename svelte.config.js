@@ -18,7 +18,7 @@ const config = {
 			fallback: '404.html'
 		}),
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/Nightmares' : '',
+			base: '/Nightmares'
 		}
 	},
 };
