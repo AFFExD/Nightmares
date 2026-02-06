@@ -1,32 +1,31 @@
-<div class="backdrop"></div>
 <main>
-	<h1>Snart ska vi söka efter pokemons!</h1>
-	<slot />
+  <slot />
 </main>
 
-<style>
-	.backdrop {
-		width: 100vw;
-		height: 100vh;
-		background-image: url('https://imageio.forbes.com/specials-images/imageserve/604202ff091b6539cb90fcbc/The-backs-of-a-number-of-Pok-mon-cards-/960x0.jpg?format=jpg&width=960');
-		background-size: cover;
-		position: fixed;
-		top: 0;
-		left: 0;
-		z-index: -1;
-		filter: blur(5px);
-	}
+<div class="backdrop"></div>
 
-	main {
-		width: 80vw;
-		height: 100vh;
-		background-color: rgba(255, 255, 255, 0.8);
-		margin: 5vh auto;
-		border: 1px solid #ccc;
-		border-radius: 8px;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
+<style>
+  main {
+    width: 80vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 5vh auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .backdrop {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://imageio.forbes.com/specials-images/imageserve/604202ff091b6539cb90fcbc/The-backs-of-a-number-of-Pok-mon-cards-/960x0.jpg?format=jpg&width=960');
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: blur(5px);
+  }
 </style>
