@@ -14,7 +14,7 @@
     const search = formData.get('search');
     
     // Navigera till den dynamiska routen /search/[pokemon]
-    goto('/search/' + search);
+    goto('search/' + search);
   }
 </script>
 
