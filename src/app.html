@@ -7,5 +7,15 @@
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
+		<script>
+			// Handle 404 redirects from GitHub Pages
+			(function() {
+				var redirect = sessionStorage.getItem('redirect');
+				if (redirect && redirect !== '/') {
+					sessionStorage.removeItem('redirect');
+					history.replaceState(null, null, redirect);
+				}
+			})();
+		</script>
 	</body>
 </html>
