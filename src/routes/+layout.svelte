@@ -24,6 +24,8 @@ import { base } from '$app/paths';
 
 <a href="{base}/chat">chat</a>
 
+<a href="{base}/search">search</a>
+
 </nav>
 
 
